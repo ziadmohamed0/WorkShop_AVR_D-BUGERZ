@@ -1,16 +1,20 @@
-App/Main.o: ../App/Main.c ../App/../Serv/Type_std.h \
- ../App/../Serv/bit_math.h ../App/../GPIO/dio_Init.h \
- ../App/../GPIO/dio_Reg.h ../App/../GPIO/../Serv/Type_std.h \
- ../App/../GPIO/../Serv/bit_math.h
+App/Main.o: ../App/Main.c ../App/Main_Init.h \
+ ../App/../Hall/BCD/bcd_Init.h ../App/../Hall/BCD/bcd_Config.h \
+ ../App/../Hall/BCD/../../Mcal/GPIO/dio_Init.h \
+ ../App/../Hall/BCD/../../Mcal/GPIO/dio_Reg.h \
+ ../App/../Hall/BCD/../../Mcal/GPIO/../../Serv/Type_std.h \
+ ../App/../Hall/BCD/../../Mcal/GPIO/../../Serv/bit_math.h
 
-../App/../Serv/Type_std.h:
+../App/Main_Init.h:
 
-../App/../Serv/bit_math.h:
+../App/../Hall/BCD/bcd_Init.h:
 
-../App/../GPIO/dio_Init.h:
+../App/../Hall/BCD/bcd_Config.h:
 
-../App/../GPIO/dio_Reg.h:
+../App/../Hall/BCD/../../Mcal/GPIO/dio_Init.h:
 
-../App/../GPIO/../Serv/Type_std.h:
+../App/../Hall/BCD/../../Mcal/GPIO/dio_Reg.h:
 
-../App/../GPIO/../Serv/bit_math.h:
+../App/../Hall/BCD/../../Mcal/GPIO/../../Serv/Type_std.h:
+
+../App/../Hall/BCD/../../Mcal/GPIO/../../Serv/bit_math.h:

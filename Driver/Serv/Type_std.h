@@ -9,6 +9,10 @@
 #define TYPE_STDS_H_
 
 
+/* -------------------- Section : Includes -------------------- */
+#include <util/delay.h>
+#include <avr/interrupt.h>
+
 /* ========== CPU_TUPES ========== */
 #define CPU_8_BIT   8
 #define CPU_16_BIT  16
